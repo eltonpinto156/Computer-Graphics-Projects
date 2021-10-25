@@ -12,8 +12,7 @@
 GLfloat angle1 = 160.0;
 GLfloat angle2 = 200.0;
 GLfloat angle3 = 200.0; 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 9
+
 float m=0;
 float mount=0;
 float mm=500;
@@ -59,8 +58,7 @@ void drawLeftCircle() // the filled one
  //glVertex3f(-50,90,1);
  glEnd();
  glPopMatrix(); 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 10
+
  /*-----------Boat-----------------*/
  glPushMatrix();
  float radius = 100;
@@ -105,8 +103,7 @@ void output(int x, int y, const char* string, int j)
 {
  int len, i;
  glColor3f(0.0f, 0.0f, 0.0f); 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 11
+ 
  glRasterPos2f(x, y);
  len = (int)strlen(string);
  for (i = 0; i < len; i++)
@@ -129,10 +126,10 @@ MANAGEMENT", 2);
  glEnd();
  output(235, 350, "INSHORE RURAL REGATTA BROTHERS", 2);
  output(100, 200, "Guide:", 5);
- output(135, 180, "Ms.MEGHA RANI", 5);
+ output(135, 180, "ABCD", 5);
  output(450, 200, "By:", 5);
- output(475, 180, "DIVYA N 4SF18CS040", 5);
- output(475, 150, "VINUTA S BADAMI 4SF18CS182", 5);
+ output(475, 180, "Name1", 5);
+ output(475, 150, "Name 2", 5);
  glColor3f(0.80, 1.00, 0.65);
  glBegin(GL_QUADS);
  //To create a highlight in the background
@@ -152,8 +149,7 @@ MANAGEMENT", 2);
  glBegin(GL_POLYGON);
  glColor3f(.8,.89,1);
  glVertex2i(0,350); 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 12
+ 
  glColor3f(.8,.89,1);
  glVertex2i(700,350);
  glColor3f(.2,.58,1);
@@ -233,8 +229,7 @@ void sceenario()
  glColor3f(.1,0.2,0.1);
  glPushMatrix();
  glTranslatef(-m, 0, 0); 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 14
+ 
  glBegin(GL_POLYGON);
  glVertex2i(72,300);
  glVertex2i(78,300);
@@ -272,8 +267,7 @@ DEPT OF CSE,SCEM MANGALURU 14
  glVertex2i(50,390);
  glEnd();
  glBegin(GL_POLYGON); 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 15
+ 
  glVertex2i(75,420);
  glVertex2i(100,360);
  glVertex2i(50,360);
@@ -312,8 +306,7 @@ DEPT OF CSE,SCEM MANGALURU 15
  glVertex2i(50,340);
  glEnd();
  glPopMatrix(); 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 16
+
 }
 void mountain()
 {
@@ -354,8 +347,7 @@ glColor3f(.2,.8,.2);
  glVertex2i(50,400);
  glVertex2i(100,360);
  glVertex2i(80,350); 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 17
+
  glVertex2i(200,450);
  glVertex2i(300,350);
  glVertex2i(280,360);
@@ -395,8 +387,7 @@ void sceenario2()
  glVertex2i(75,400);
  glVertex2i(100,340);
  glVertex2i(50,340); 
- INSHORE REGATTA BROTHERS
-DEPT OF CSE,SCEM MANGALURU 18
+ 
  glEnd();
  glPopMatrix();
  /*-------------tree2---------------*/
